@@ -1,0 +1,33 @@
+{
+  "name": "triangl-landingpage",
+  "version": "1.0.0",
+  "description": "Landingpage for the WS18 project \"triangl.io\" at CODE University",
+  "main": "index.js",
+  "scripts": {
+    "sasstocss-dev": "node-sass sass/main.scss css/style.css -w",
+    "liveserver-dev": "live-server",
+    "start": "npm-run-all --parallel liveserver-dev sasstocss-dev",
+    "compile-build": "node-sass sass/main.scss css/style.comp.css",
+    "prefix-build": "postcss --use autoprefixer -b 'last 5 versions' css/style.comp.css -o css/style.prefix.css",
+    "compress-build": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "build": "npm-run-all compile-build prefix-build compress-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConstantinSchreiber/triangl-landingpage.git"
+  },
+  "author": "Constantin Schreiber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConstantinSchreiber/triangl-landingpage/issues"
+  },
+  "homepage": "https://github.com/ConstantinSchreiber/triangl-landingpage#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.0",
+    "concat": "^1.0.3",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.10.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.0.1"
+  }
+}
