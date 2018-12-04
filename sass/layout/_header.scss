@@ -1,0 +1,46 @@
+.section-header {
+  width: 100%;
+  margin-top: 6rem;
+  @include clearfix;
+
+  &__decoration--left {
+    position: absolute;
+    z-index: -30;
+    margin-left: -60rem;
+    img {
+      opacity: .2;
+      max-width: 100rem;
+    }
+  }
+  &__decoration--right {
+    position: absolute;
+    z-index: -30;
+    margin-left: 10rem;
+    margin-top: -25rem;
+    img {
+      opacity: .9;
+      max-width: 150rem;
+    }
+  }
+
+  &__hero-text {
+    margin-top: 17rem;
+  }
+
+  &__hero-image {
+    margin-left: -6rem;
+    img {
+      max-width: 65.6rem;
+    }
+  }
+
+  &__hero--line {
+    width: 40%;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1.5px solid $col-dark-gray;
+    margin-top: .7em;
+    padding: 0;
+  }
+}

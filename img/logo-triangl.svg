@@ -1,0 +1,32 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 2093 504.41">
+    <defs>
+        <style>
+            .cls-1{opacity:0.8;}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:#fff;}.cls-4{fill:url(#linear-gradient-2);}.cls-5{fill:url(#linear-gradient-3);}.cls-6{font-size:364.41px;fill:#383838;font-family:Ubuntu-Light,
+            Ubuntu;}
+        </style>
+        <linearGradient id="linear-gradient" x1="100.39" y1="767.39" x2="379.22" y2="767.39"
+                        gradientTransform="translate(559.71 -538.3) rotate(30)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#7fffd2"/>
+            <stop offset="1" stop-color="#69b4ff"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="268.15" y1="179.48" x2="408.33" y2="260.41"
+                        gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#7fe7ff"/>
+            <stop offset="1" stop-color="#69b4ff"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1="14.49" y1="44.21" x2="403.48" y2="268.8"
+                        xlink:href="#linear-gradient-2"/>
+    </defs>
+    <title>Artboard 1</title>
+    <g class="cls-1">
+        <path class="cls-2"
+              d="M412.62,435.72a38.8,38.8,0,0,1-33.93-19.59L263,215.66a39.18,39.18,0,0,1,33.93-58.77H528.36a39.18,39.18,0,0,1,33.93,58.77L446.55,416.13A38.78,38.78,0,0,1,412.62,435.72Z"/>
+        <path class="cls-3"
+              d="M528.36,162.89c25.54,0,41.51,27.65,28.74,49.77L441.36,413.13a33.18,33.18,0,0,1-57.47,0L268.15,212.66c-12.77-22.12,3.19-49.77,28.73-49.77H528.36m0-12H296.88a45.18,45.18,0,0,0-39.12,67.77L373.49,419.13a45.19,45.19,0,0,0,78.26,0L567.49,218.66a45.18,45.18,0,0,0-39.13-67.77Z"/>
+    </g>
+    <path class="cls-4" d="M296.88,162.89c-25.54,0-41.5,27.65-28.73,49.77L352,357.93l112.61-195Z"/>
+    <path class="cls-5"
+          d="M485.26,27.62h-442c-25.54,0-41.51,27.65-28.74,49.77l221,382.81c12.77,22.12,44.7,22.12,57.47,0l52.11-90.27L257.76,218.66a45.18,45.18,0,0,1,39.12-67.77H471.56L514,77.39C526.76,55.27,510.8,27.62,485.26,27.62Z"/>
+    <text class="cls-6" transform="translate(661.24 366.24)">triangl.io</text>
+</svg>

@@ -1,0 +1,43 @@
+.comp-feature-cards {
+  margin-bottom: 10rem;
+  vertical-align: middle;
+
+  &__image {
+    margin-top: 1.5rem;
+    height: 18rem;
+    position: relative;
+
+    img {
+      //vertical & horizontal center
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      max-width: 14.8rem;
+    }
+  }
+
+  &__card {
+    box-shadow: 0 0 1.5rem rgba($col-pure-black, .2);
+    border-radius: .6rem;
+    height: 47rem;
+    transition: transform .3s;
+
+    &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+    }
+  }
+
+  &__text {
+    &--sub {
+      padding: 0 4rem 3rem;
+    }
+    &--head {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+  }
+
+}
