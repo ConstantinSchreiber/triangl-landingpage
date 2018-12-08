@@ -1,0 +1,37 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: $col-dark-gray;
+}
+
+.heading-primary {
+
+  &--main {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: $col-dark-gray;
+    font-size: 2.3rem;
+    margin: 0;
+    line-height: 2.8rem;
+  }
+}
+
+.heading-secondary {
+
+  &--main {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: $col-dark-gray;
+    font-size: 3rem;
+    padding: 8rem 0 4rem 0;
+    line-height: 2.8rem;
+    margin: 0;
+  }
+}
+
+.regular-text {
+  font-family: "Open-Sans", sans-serif;
+  color: $col-dark-gray;
+  font-size: $smaller-font-size;
+  line-height: 2.2rem;
+}

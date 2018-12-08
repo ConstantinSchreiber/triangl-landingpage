@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1158px" height="1025px" viewBox="0 0 1158 1025" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.883971928%" y1="3.69370172%" x2="77.383624%" y2="53.6936635%" id="linearGradient-1">
+            <stop stop-color="#7EE6FF" offset="0%"></stop>
+            <stop stop-color="#69B3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.489327567">
+        <g id="1440" transform="translate(-824.000000, -1311.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-3-Copy-3" transform="translate(824.000000, 1311.000000)">
+                <path d="M75.6785792,0 C31.6209886,0 0.0774298604,36.20168 0,75.6962889 L0,75.9518731 C0.0182187907,88.5211402 3.2270033,101.416734 10.236683,113.579804 L513.558104,987.139305 C528.051152,1012.29381 553.372994,1024.91328 578.73355,1025 L579.264172,1025 C604.627006,1024.91328 629.948848,1012.29381 644.441896,987.139305 L1147.76332,113.579804 C1154.773,101.41217 1157.98178,88.5120122 1158,75.9381811 L1158,75.7008529 C1157.92712,36.20168 1126.38129,0 1082.32142,0 L75.6785792,0 Z"
+                      id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

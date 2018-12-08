@@ -1,0 +1,163 @@
+.section-contact {
+  height: 60rem;
+  background-image: linear-gradient(to left, $col-primary-ultralight1, $col-primary-ultralight2);
+  box-shadow: 0 .2rem 1.5rem rgba($col-pure-black, .2);
+
+  @include responsive(small) {
+    height: 112.5rem;
+  }
+
+  &__bg-element {
+    position: relative;
+    box-shadow: 0 0 .88888888rem rgba($col-pure-black, .15);
+    border-radius: .6rem;
+    height: 34rem;
+    transition: transform .3s;
+    background-color: $col-pure-white;
+    z-index: 10;
+
+    @include responsive(small) {
+      height: 50rem;
+    }
+
+    @include responsive(extra-small) {
+      height: 53rem;
+    }
+
+    @include responsive(micro) {
+      height: 56rem;
+    }
+
+  }
+
+  &__decoration-left {
+    position: absolute;
+    margin-top: -11rem;
+    margin-left: -12rem;
+    z-index: 1;
+    img {
+      width: 50rem;
+    }
+    @include responsive(extra-small) {
+      visibility: hidden;
+    }
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    margin-left: 2rem;
+    padding-bottom: .5rem;
+    text-decoration: none;
+    color: $col-dark-gray;
+    font-size: $default-font-size;
+    width: 70%;
+    outline: none;
+    transition: all .3s;
+
+    @include responsive(small) {
+      margin-left: 0;
+    }
+
+    &:focus {
+      border-color: #70ADFF;
+    }
+  }
+
+  .sidebar {
+    background-image: linear-gradient(to bottom right, #8FE6FF, #3FC6FF);
+    border-top-right-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+    @include responsive(small) {
+      border-radius: .6rem;
+      height: 34rem;
+      box-shadow: 0 .2rem 1.5rem rgba($col-pure-black, .2);
+    }
+    height: 34rem;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .centerup {
+    margin-top: 6rem;
+
+    &--less {
+      margin-top: 2rem;
+      @include responsive(small) {
+        margin-top: 0;
+      }
+    }
+
+    @include responsive(small) {
+      margin-bottom: 0;
+    }
+  }
+
+  .button {
+    font-weight: 900;
+    float: right;
+    @include responsive(small) {
+      float: none;
+    }
+  }
+
+  .fullwidth {
+    width: 100%;
+
+    @include responsive(small) {
+      margin-bottom: 0 !important;
+      text-align: center;
+    }
+  }
+
+  .subtext {
+    margin-top: 0;
+    color: lightgray;
+    @include responsive(small) {
+      margin-top: 2rem;
+    }
+  }
+
+  .contact-sidebar--text {
+    font-size: 1.6rem;
+    color: $col-shady-white;
+    font-weight: 600;
+  }
+  .contact-head {
+    color: $col-shady-white;
+    font-size: 2rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+  }
+
+  .side-contact-text {
+    @include responsive(small) {
+      text-align: center;
+      margin-left: -6%;
+    }
+    @include responsive(extra-small) {
+      text-align: center;
+      margin-left: -9%;
+    }
+  }
+
+  i {
+    color: $col-shady-white;
+    margin-left: 3rem;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+  }
+  p {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: inline-block;
+  }
+}
+
+
+
+
+

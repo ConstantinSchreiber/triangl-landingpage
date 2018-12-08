@@ -1,0 +1,47 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+//TODO: convert px to em
+@mixin responsive($breakpoint) {
+  @if $breakpoint == micro {
+    @media only screen and (max-width: 390px) {
+      @content
+    }
+  ; //390px
+  }
+  @if $breakpoint == extra-small {
+    @media only screen and (max-width: 650px) {
+      @content
+    }
+  ; //600px
+  }
+  @if $breakpoint == small {
+    @media only screen and (max-width: 850px) {
+      @content
+    }
+  ; //600px
+  }
+  @if $breakpoint == medium {
+    @media only screen and (max-width: 950px) {
+      @content
+    }
+  ; //900px
+  }
+  @if $breakpoint == large {
+    @media only screen and (max-width: 1250px) {
+      @content
+    }
+  ; //1200px
+  }
+  @if $breakpoint == extra-big {
+    @media only screen and (min-width: 112.5em) {
+      @content
+    }
+  ; //1800
+  }
+}

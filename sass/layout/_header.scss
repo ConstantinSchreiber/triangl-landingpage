@@ -1,0 +1,77 @@
+.section-header {
+  width: 100%;
+  margin-top: 6rem;
+  @include responsive(extra-small) {
+    margin-top: 3rem;
+  }
+  @include clearfix;
+
+  &__decoration--left {
+    position: absolute;
+    z-index: -30;
+    margin-left: -60rem;
+    img {
+      opacity: .2;
+      max-width: 100rem;
+    }
+
+    animation-name: moveInLeft;
+    animation-duration: .8s;
+    animation-timing-function: ease-out;
+  }
+  &__decoration--right {
+    position: absolute;
+    z-index: -30;
+    margin-left: 10rem;
+    margin-top: -25rem;
+    @include responsive(extra-small) {
+      margin-top: -52rem;
+      margin-left: 40rem;
+    }
+    img {
+      opacity: .9;
+      max-width: 150rem;
+    }
+    animation-name: moveInRight;
+    animation-duration: .8s;
+    animation-timing-function: ease-out;
+  }
+
+  &__hero-text {
+    margin-top: 17rem;
+    @include responsive(small) {
+      margin-top: 11rem;
+    }
+    @include responsive(extra-small) {
+      margin-top: 0;
+      padding: 8rem 2rem 6rem 2rem;
+    }
+  }
+
+  &__hero-image {
+    margin-left: -6rem;
+    img {
+      max-width: 65.6rem;
+
+      @include responsive(small) {
+        max-width: 42rem;
+      }
+      @include responsive(extra-small) {
+        display: none;
+      }
+    }
+    animation-name: moveInRight;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-out;
+  }
+
+  &__hero--line {
+    width: 40%;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1.5px solid $col-dark-gray;
+    margin-top: .7em;
+    padding: 0;
+  }
+}

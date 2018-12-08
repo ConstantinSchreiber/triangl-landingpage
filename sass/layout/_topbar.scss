@@ -1,0 +1,24 @@
+.section-topbar {
+  margin-top: 6.5rem;
+  @include responsive(extra-small) {
+    margin-top: 4rem;
+  }
+  @include clearfix;
+  &__buttons {
+    float: right;
+  }
+
+  &__logo {
+    img {
+      max-width: 17rem;
+    }
+  }
+
+  .button--gradient-blue {
+    @include responsive(extra-small) {
+      margin-top: 0.3rem;
+      font-size: $default-font-size - 0.3rem;
+    }
+  }
+}
+

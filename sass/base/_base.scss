@@ -1,0 +1,23 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+  @include responsive(large) {
+    font-size: 9px;
+  }
+
+}
+
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+}
