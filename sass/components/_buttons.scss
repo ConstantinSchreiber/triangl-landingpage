@@ -42,3 +42,21 @@
 
 }
 
+.remove-responsive {
+  &--small {
+    @include responsive(small) {
+      display: none !important;
+    }
+  }
+  &--extra-small {
+    @include responsive(extra-small) {
+      display: none !important;
+    }
+  }
+  &--micro {
+    @include responsive(micro) {
+      display: none !important;
+    }
+  }
+}
+

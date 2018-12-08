@@ -23,7 +23,11 @@
     box-shadow: 0 0 1.5rem rgba($col-pure-black, .2);
     border-radius: .6rem;
     height: 47rem;
+    @include responsive(small) {
+      height: auto;
+    }
     transition: transform .3s;
+    background-color: $col-pure-white;
 
     &:hover {
       transform: translateY(-1.5rem) scale(1.03);

@@ -1,6 +1,7 @@
 //Sass 7-1 Pattern
 @import "abstracts/variables";
 @import "abstracts/mixins";
+
 @import "base/animations";
 @import "base/base";
 @import "base/typography";
@@ -11,4 +12,6 @@
 @import "layout/grid";
 @import "layout/header";
 @import "layout/topbar";
+@import "layout/contact";
+
 @import "pages/home";

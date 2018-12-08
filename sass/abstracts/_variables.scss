@@ -1,11 +1,13 @@
 $col-dark-gray: #525252;
-$col-shady-white: #F6F6F6;
+$col-shady-white: #F9F9F9;
 $col-pure-white: #ffffff;
 $col-baby-blue: #B0DFF6;
 $col-pure-black: #000;
 
 $col-primary-light: #79D9FF;
-$col-primary-dark: #69B4FF;
+$col-primary-dark: rgba(112, 173, 255, 0.51);
+$col-primary-ultralight1: rgba(219, 239, 255, .8);
+$col-primary-ultralight2: rgba(244, 250, 255, .8);
 
 $default-font-size: 1.6rem; //1.6 * 10px = 16px
 $smaller-font-size: 1.5rem;

@@ -1,5 +1,5 @@
 .row {
-  padding: 0 1rem;
+  padding: 0 4rem;
   max-width: $base-width;
   margin: 0 auto;
   @include clearfix;
@@ -10,6 +10,23 @@
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
     }
+
+    @include responsive(small) {
+      &:not(.exclude-small) {
+        width: 100% !important;
+      }
+      &:not(:last-child) {
+        margin-bottom: 5rem;
+      }
+    }
+
+    @include responsive(extra-small) {
+      width: 100% !important;
+    }
+  }
+
+  .row__nopadding {
+    padding: 0;
   }
 
   .col-1-of-2 {
