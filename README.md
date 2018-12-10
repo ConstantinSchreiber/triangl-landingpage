@@ -18,9 +18,8 @@ Against the current trend I actively decided to not develop mobile but rather de
 
 
 ### Screen Design
-
-<img src="https://i.imgur.com/g7566dW.png" width="200"> 
 When implementing the design in sketch I tried to already think in grids to be able to adapt to smaller screen sizes more natrually.
+<img src="https://i.imgur.com/g7566dW.png" width="200"> 
 
 ### Implementation
 
